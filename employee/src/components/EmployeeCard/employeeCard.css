@@ -1,0 +1,24 @@
+.employeeCard {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	background-color: lightblue;
+	color: black;
+	padding: 1rem;
+	width: 30rem;
+}
+
+.employeeImage {
+	border-radius: 15px;
+}
+
+.employeeContent {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* gap: 10rem; */
+}
